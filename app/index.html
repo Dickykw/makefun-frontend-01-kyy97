@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Potwatch — a fast, read-only board for make.fun bounties: live pots, entry fees, deadlines, leaderboards and public profiles.">
+<title>Potwatch — make.fun bounties</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#/">◆ Potwatch <span>make.fun bounties</span></a>
+    <nav aria-label="Sections">
+      <a href="#/">Board</a>
+      <a href="#/bounty/makefun-frontend-01">This bounty</a>
+    </nav>
+    <p class="top-note" id="net" aria-live="polite"></p>
+  </div>
+</header>
+<main id="app" class="wrap"></main>
+<footer class="wrap foot">
+  <p>Read-only client for <a href="https://make.fun">make.fun</a> · live data from <code>https://make.fun/api</code> · no sign-in, no tracking, no writes.</p>
+  <p>Pot = base reward + entry fees paid in. A bounty past its deadline takes no more entries, whatever its status says.</p>
+</footer>
+</body>
+</html>
